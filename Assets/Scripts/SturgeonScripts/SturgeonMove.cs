@@ -9,7 +9,6 @@ public class SturgeonMove : MonoBehaviour
     private Vector2 lp;   //Last touch position
 
     private float difX;
-
     private float difY;
 
     public float sensitivity;

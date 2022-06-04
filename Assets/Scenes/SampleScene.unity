@@ -188,7 +188,7 @@ PrefabInstance:
     - target: {fileID: 5438110837515810081, guid: 8358da583f717d74ab8a9ed403f204dc,
         type: 3}
       propertyPath: m_Name
-      value: Sturgeon9, fixed bones for animations(coloringDone) (1)
+      value: Far away Sturgeon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8358da583f717d74ab8a9ed403f204dc, type: 3}
@@ -383,14 +383,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7659c306c23b045825f1b413678430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 919132149470198691}
+  player: {fileID: 0}
 --- !u!1 &919132149470198687 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5438110837515810081, guid: 8358da583f717d74ab8a9ed403f204dc,
     type: 3}
   m_PrefabInstance: {fileID: 5168273301962428094}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &919132149470198689
+--- !u!114 &919132149470198692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -402,13 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 361e24079b5f69b4b8e93d210e364ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
---- !u!4 &919132149470198691 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4626283487352369051, guid: 8358da583f717d74ab8a9ed403f204dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 5168273301962428094}
-  m_PrefabAsset: {fileID: 0}
+  speed: 0.01
 --- !u!1001 &5168273301962428094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -416,6 +410,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3281028779582947956, guid: 8358da583f717d74ab8a9ed403f204dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4626283487352369051, guid: 8358da583f717d74ab8a9ed403f204dc,
         type: 3}
       propertyPath: m_RootOrder
@@ -429,17 +428,17 @@ PrefabInstance:
     - target: {fileID: 4626283487352369051, guid: 8358da583f717d74ab8a9ed403f204dc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.86
+      value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 4626283487352369051, guid: 8358da583f717d74ab8a9ed403f204dc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.11
       objectReference: {fileID: 0}
     - target: {fileID: 4626283487352369051, guid: 8358da583f717d74ab8a9ed403f204dc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.22
       objectReference: {fileID: 0}
     - target: {fileID: 4626283487352369051, guid: 8358da583f717d74ab8a9ed403f204dc,
         type: 3}
@@ -479,7 +478,12 @@ PrefabInstance:
     - target: {fileID: 5438110837515810081, guid: 8358da583f717d74ab8a9ed403f204dc,
         type: 3}
       propertyPath: m_Name
-      value: Sturgeon9, fixed bones for animations(coloringDone)
+      value: Main Sturgeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142010310762248439, guid: 8358da583f717d74ab8a9ed403f204dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8358da583f717d74ab8a9ed403f204dc, type: 3}
