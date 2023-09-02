@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 4626283487352369051}
   - component: {fileID: 1644922749662623201}
   m_Layer: 0
-  m_Name: Sturgeon9, fixed bones for animations(coloringDone)
+  m_Name: Whiskerless Sturgeon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -816,7 +816,6 @@ Transform:
   - {fileID: 6994074303238795575}
   - {fileID: 2228224405680089354}
   - {fileID: 100739657879942924}
-  - {fileID: 7891278822601127855}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -93.514, z: 0}
@@ -840,104 +839,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &5481628762231125962
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7891278822601127855}
-  - component: {fileID: 2085572202431863603}
-  m_Layer: 0
-  m_Name: Whisker1.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7891278822601127855
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5481628762231125962}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 9.313226e-10, y: 0.10052945, z: -0.20666474}
-  m_LocalScale: {x: 100, y: 116, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4626283487352369051}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &2085572202431863603
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5481628762231125962}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -2813467912831258332, guid: 78cb48c8954eac7438ab8c82655d57e4, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 6655890634730588523, guid: 78cb48c8954eac7438ab8c82655d57e4, type: 3}
-  m_Bones:
-  - {fileID: 578293761384543827}
-  - {fileID: 4782914625049491530}
-  - {fileID: 6318073254704035406}
-  - {fileID: 8091808131712620787}
-  - {fileID: 2715521676689874383}
-  - {fileID: 780025768457511915}
-  - {fileID: 1345373276876961230}
-  - {fileID: 7818689326057391083}
-  - {fileID: 1035845631528117851}
-  - {fileID: 1488951781027219566}
-  - {fileID: 4555829129268254427}
-  - {fileID: 6132438639613050270}
-  - {fileID: 8343559278096748280}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 578293761384543827}
-  m_AABB:
-    m_Center: {x: 0.000000019092113, y: 0.0011109497, z: 0.08582244}
-    m_Extent: {x: 0.004459071, y: 0.0028430196, z: 0.00119479}
-  m_DirtyAABB: 0
 --- !u!1 &6142010310762248439
 GameObject:
   m_ObjectHideFlags: 0

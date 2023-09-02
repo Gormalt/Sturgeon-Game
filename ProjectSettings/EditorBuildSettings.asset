@@ -4,7 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RiverScene 1.unity
+    guid: 3965ce66b7cdb14498883bd69343d8e7
+  - enabled: 1
+    path: Assets/Scenes/RiverScene.unity
+    guid: 22efaebb542f9af47866b34df2d55d11
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 19ac4005a87aff240a8d61047fa04aae,
+      type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000,
+      guid: 052197bd3a1a95d4da95d8b6dedeb7be, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 22ed15fc8c53e87478dbe07341133e2f, type: 2}

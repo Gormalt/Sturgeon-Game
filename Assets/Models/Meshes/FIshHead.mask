@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FIshHead
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Root
+    m_Weight: 0
+  - m_Path: Armature/Root/Spine
+    m_Weight: 0
+  - m_Path: Armature/Root/Spine/Upper
+    m_Weight: 1
+  - m_Path: Armature/Root/Spine/Upper/Head
+    m_Weight: 1
+  - m_Path: Armature/Root/Spine/Upper/Head/Head_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Spine/Upper/LeftFlipper
+    m_Weight: 1
+  - m_Path: Armature/Root/Spine/Upper/LeftFlipper/LeftFlipper_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Spine/Upper/RightFlipper
+    m_Weight: 1
+  - m_Path: Armature/Root/Spine/Upper/RightFlipper/RightFlipper_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Tailbone
+    m_Weight: 0
+  - m_Path: Armature/Root/Tailbone/LowerBone
+    m_Weight: 0
+  - m_Path: Armature/Root/Tailbone/LowerBone/TailTip
+    m_Weight: 0
+  - m_Path: Armature/Root/Tailbone/LowerBone/TailTip/TailTip_end
+    m_Weight: 0
+  - m_Path: Fin1
+    m_Weight: 0
+  - m_Path: Fin1.001
+    m_Weight: 0
+  - m_Path: Fin2
+    m_Weight: 0
+  - m_Path: Fin2.001
+    m_Weight: 0
+  - m_Path: Fin2.002
+    m_Weight: 0
+  - m_Path: Fish
+    m_Weight: 0
+  - m_Path: Whisker1.001
+    m_Weight: 0

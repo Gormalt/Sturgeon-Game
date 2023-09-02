@@ -1,17 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.AdaptivePerformance.Editor;
 using UnityEngine;
 
 public class SturgeonMove : MonoBehaviour
 {
+    //Notice there is a duplicate of this file for touch screen, this one is for keyboard movement.
     private Vector2 fp;   //First touch position
     private Vector2 lp;   //Last touch position
 
-    private float difX;
-    private float difY;
-
-    public float sensitivity;
+    public SturgeonForward forw;
+    public float speed = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,30 +20,32 @@ public class SturgeonMove : MonoBehaviour
     void Update()
     {
 
-        if (Input.touchCount == 1)
-        {
-            difX = 0;
-            difY = 0;
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began)
-            { 
-                fp = touch.position;
-            }
-            else if (touch.phase == TouchPhase.Moved)
-            {
-                difX = touch.position.x - fp.x;
-                difY = touch.position.y - fp.y;
+        float inX = Input.GetAxis("Horizontal");
+        float inY = Input.GetAxis("Vertical");
 
-                fp = touch.position;
-            }
 
-            
-                
-         }
         Vector3 curPos = transform.position;
-        Vector3 newPos = new Vector3(curPos.x + (difX/sensitivity), curPos.y + (difY/sensitivity), curPos.z);
+        
+        float newXPos = curPos.x + (speed*inX* Time.deltaTime);
+        float newYPos = curPos.y + (speed * inY * Time.deltaTime);
 
-        transform.position = newPos;
+        if (newXPos < -33f || newXPos > 33f)
+        {
+            newXPos = transform.position.x;
+        }
+
+        if (newYPos < -6.5f || newYPos > 7.63f)
+        {
+            newYPos = transform.position.y;
+        }
+
+        if (forw.start)
+        {
+            Vector3 newPos = new Vector3(newXPos, newYPos, curPos.z);
+            transform.position = newPos;
+
+        }
+
         
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class DamselflyMove : MonoBehaviour, Activateable
 {
@@ -11,7 +12,10 @@ public class DamselflyMove : MonoBehaviour, Activateable
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (transform.position.x > 0)
+        {
+            xChange = -xChange;
+        }
     }
 
     // Update is called once per frame
@@ -31,8 +35,8 @@ public class DamselflyMove : MonoBehaviour, Activateable
         for (;;)
         {
             transform.position =
-                new Vector3(transform.position.x + xChange, transform.position.y, transform.position.x);
-            yield return new WaitForSeconds(0.1f);
+                new Vector3(transform.position.x + (xChange * Time.deltaTime), transform.position.y, transform.position.z);
+            yield return new WaitForEndOfFrame();
         }
         
     }
